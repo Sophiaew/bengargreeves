@@ -1,0 +1,116 @@
+<html>
+
+<head>
+    <title>Test Form</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: cadetblue;
+            padding: 0;
+        }
+
+        #border-one {
+            border: 10px solid whitesmoke;
+            border-radius: 25% 10px 25% 10px;
+            margin: 0.5% 5% 0% 5%;
+            background-color: whitesmoke;
+        }
+
+        #top {
+            text-align: center;
+        }
+
+        #questions {
+            padding-left: 2%;
+        }
+
+        .line {
+            margin-right: 20%;
+        }
+
+        .top-line {
+            height: 20px;
+            background-color: cadetblue;
+            border-radius: 10px;
+            margin-left: 2%;
+            border-color: cadetblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="border-one">
+        <div id="top">
+            <h1>This is an Avengers Quiz</h1>
+            <h3><span style="font-weight:  bolder;">Test</span> your knowledge!</h3>
+            <hr class="top-line">
+        </div>
+        <div id="questions">
+
+            <form>
+                <section>
+                    <h4>Question One:</h4>
+                    <label> Which MCU movie featured Spider-man's first apperance? <select name="question-one">
+                            <option value=None> ---</option>
+                            <option value=Iron-man-3> Iron Man 3</option>
+                            <option value=Spider-man-homecoming> Spider-man: Homecoming</option>
+                            <option value=Avengers> Avengers: Age of Ultron</option>
+                            <option value=Captain-America> Captain America: Civil War</option>
+                        </select></label>
+                    <hr>
+                </section>
+                <section>
+                    <h4>Question Two:</h4>
+                    <label> What does Stark Industries manufacture in Iron Man 1? <select style="width: 200px"
+                            name="question-two">
+                            <option value=None> ---</option>
+                            <option value=Chemicals> Chemicals </option>
+                            <option value=Pharma> Pharmaceuticals</option>
+                            <option value=Weapons> Weapons</option>
+                            <option value=Buildings> Buildings</option>
+                        </select></label>
+                </section>
+                <hr>
+                <section>
+                    <h4>Question Three</h4>
+                    <label> How many Avengers Movies Are there? <input type="number" name="question-three"></label>
+                </section>
+                <hr>
+                <section>
+                    <h4>Question Four:</h4>
+                    <label> Name a character who did not appear in phase one: <input type="text"
+                            name="question-four"></label>
+                </section>
+                <hr>
+                <section>
+                    <h4>Question Five:</h4>
+                    <label> What's the name of Thor's hammer? <select style="width: 200px" name="question-five">
+                            <option value=---> ---</option>
+                            <option value=Balder> Balder </option>
+                            <option value=Vanir> Vanir</option>
+                            <option value=Aesir> Aesir</option>
+                            <option value=Mjolnir> Mjolnir</option>
+                        </select></label>
+                </section>
+                <hr>
+                <section>
+                    <h4>Question Six:</h4>
+                    <p>Is Iron Man Three a Christmas movie?</p>
+                    <label><input type="radio" name="option">Yes </label>
+                    <label><input type="radio" name="option">No </label>
+                </section>
+                <hr>
+                <section>
+                    <h4>Question Seven:</h4>
+                    <label>HAIL... <input type="text"></label>
+                </section>
+
+            </form>
+            <hr class="line">
+            <h2 style="padding-top: 1%;"> End of test!</h2>
+        </div>
+    </div>
+    <button style="margin-left: 5%;"> Submit></button>
+</body>
+
+</html>
