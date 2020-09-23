@@ -2,6 +2,7 @@
     "editor.formatOnSave": true,
     "cSpell.enabled": true,
     "cSpell.words": [
-        "Ultron"
+        "Ultron",
+        "farenheit"
     ]
 }

@@ -1,0 +1,88 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: linen;
+    margin:0;
+}
+#header { position: relative;}
+#top-image{
+    z-index:-1;
+    margin:0;
+}
+.white{
+    color:white;
+ 
+}
+#index a {
+    color: white;
+    text-decoration: none;
+}
+.ullnor{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-size: 40;
+       font-weight: bolder;
+}
+.beliefs{
+    position: absolute;
+    top: 5%;
+    Right: 30%;
+    text-decoration: none;
+}
+.characters{
+    position: absolute;
+    top: 5%;
+    Right: 17.7%;
+    text-decoration: none;
+}
+.effie{
+    position: absolute;
+    top: 5%;
+    Right: 2%;
+}
+.media{
+    position: absolute;
+    top: 5%;
+    Right:10%;
+
+}
+.family{
+    position: absolute;
+    width: 100%;
+    top: 150px;
+    font-size: 30;
+}
+.lion{
+    position: absolute;
+    top:150px;
+    width: 100%;
+    font-size: 100;
+}
+main {
+    position: relative;
+    top:0;
+    left: 2%;
+}
+
+p, aside, li {
+    font-size: 20px;
+margin-right:3%;}
+
+a{
+    text-decoration: none;
+}
+.image-float{
+    float: right;
+    margin-right: 3%;
+    border: 5px ridge olive;
+}
+
+.character-images{
+    padding: 0px;
+    margin-top: 10px;
+    Margin-left: 100px;
+    Margin-bottom: 30px;
+    Margin-right: 100px;
+    border: 5px ridge seagreen;
+}
+

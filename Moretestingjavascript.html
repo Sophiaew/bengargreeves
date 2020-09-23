@@ -1,0 +1,53 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <h1>This is for Javascript Testing</h1>
+</body>
+<script>
+    console.log("test");
+    console.log(40);
+    //math
+    console.log(10 * 10);//prints 100
+    //String math
+    console.log('Hello' + ' World');//Prints Hello World
+    console.log('Hello' + 'World');//Prints HelloWorld
+    //length prints the number of characters in the string.
+    console.log('Teaching the world how to code'.length);//Prints 30
+    //Variables, constants, let
+    var myName = "Sophia";
+    const myRoad = "Goebel";
+    let myCity = "New City";
+    console.log("My name is " + myName);
+    console.log("I live in " + myCity);
+    console.log("My road is " + myRoad);
+    myCity = "Rockland";
+    console.log("I live in " + myCity);
+    //literal
+    var myName = "Sophia";
+    var myCurrentCity = "New City";
+    console.log(`My name is ${myName}. My favorite city is ${myCurrentCity}.`);
+    //Weather project
+    var kelvin = 0;//Kelvin output.
+    const celsius = kelvin - 273;// Celsius output.
+    let farenheit = (celsius * (9 / 5) + 32);// Farenheit.
+    farenheit = Math.floor(farenheit);// Farenheit whole number.
+    console.log("The temperature is " + farenheit + " degrees Farenheit.")
+    let newton = celsius * (33 / 100);//Newton output.
+    netwon = Math.floor(newton);//Newton output whole number.
+    console.log(`The temperature is ${newton} in degrees newton.`)
+    //if then statements
+    let sale = true;
+    if (sale) { console.log("Time to buy!") };
+    //break
+    let hungerLevel = 7;
+    if (hungerLevel > 7) { console.log("Time to eat!") } else { console.log("We can eat later!") };
+    let mood = 'sleepy';
+    let tirednessLevel = 6;
+    if (mood === "sleepy" && tirednessLevel > 8) { console.log("time to sleep") } else { console.log("not bed time yet") }
+</script>
+
+</html>
