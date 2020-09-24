@@ -1,22 +1,19 @@
 <html>
+  <head> </head>
 
-<head>
-
-</head>
-
-<body>
+  <body>
     <h1>This is for Javascript Testing</h1>
-</body>
-<script>
+  </body>
+  <script>
     console.log("test");
     console.log(40);
     //math
-    console.log(10 * 10);//prints 100
+    console.log(10 * 10); //prints 100
     //String math
-    console.log('Hello' + ' World');//Prints Hello World
-    console.log('Hello' + 'World');//Prints HelloWorld
+    console.log("Hello" + " World"); //Prints Hello World
+    console.log("Hello" + "World"); //Prints HelloWorld
     //length prints the number of characters in the string.
-    console.log('Teaching the world how to code'.length);//Prints 30
+    console.log("Teaching the world how to code".length); //Prints 30
     //Variables, constants, let
     var myName = "Sophia";
     const myRoad = "Goebel";
@@ -31,23 +28,65 @@
     var myCurrentCity = "New City";
     console.log(`My name is ${myName}. My favorite city is ${myCurrentCity}.`);
     //Weather project
-    var kelvin = 0;//Kelvin output.
-    const celsius = kelvin - 273;// Celsius output.
-    let farenheit = (celsius * (9 / 5) + 32);// Farenheit.
-    farenheit = Math.floor(farenheit);// Farenheit whole number.
-    console.log("The temperature is " + farenheit + " degrees Farenheit.")
-    let newton = celsius * (33 / 100);//Newton output.
-    netwon = Math.floor(newton);//Newton output whole number.
-    console.log(`The temperature is ${newton} in degrees newton.`)
+    var kelvin = 0; //Kelvin output.
+    const celsius = kelvin - 273; // Celsius output.
+    let farenheit = celsius * (9 / 5) + 32; // Farenheit.
+    farenheit = Math.floor(farenheit); // Farenheit whole number.
+    console.log("The temperature is " + farenheit + " degrees Farenheit.");
+    let newton = celsius * (33 / 100); //Newton output.
+    netwon = Math.floor(newton); //Newton output whole number.
+    console.log(`The temperature is ${newton} in degrees newton.`);
     //if then statements
     let sale = true;
-    if (sale) { console.log("Time to buy!") };
+    if (sale) {
+      console.log("Time to buy!");
+    }
     //break
     let hungerLevel = 7;
-    if (hungerLevel > 7) { console.log("Time to eat!") } else { console.log("We can eat later!") };
-    let mood = 'sleepy';
+    if (hungerLevel > 7) {
+      console.log("Time to eat!");
+    } else {
+      console.log("We can eat later!");
+    }
+    let mood = "sleepy";
     let tirednessLevel = 6;
-    if (mood === "sleepy" && tirednessLevel > 8) { console.log("time to sleep") } else { console.log("not bed time yet") }
-</script>
-
+    if (mood === "sleepy" && tirednessLevel > 8) {
+      console.log("time to sleep");
+    } else {
+      console.log("not bed time yet");
+    }
+    //BIG BREAK
+    let userName = "Sophia";
+    userName ? console.log(`Hello, ${userName}!`) : console.log("Hello!");
+    const userQuestion = "Will I become a werewolf tonight?";
+    console.log(`The user asked: ${userQuestion}`);
+    const randomNumber = Math.floor(Math.random() * 8);
+    let eightBall = "";
+    switch (randomNumber) {
+      case 0:
+        eightBall = "It is certain";
+        break;
+      case 1:
+        eightBall = "It is decidedly so";
+        break;
+      case 2:
+        eightBall = "Reply hazy try again";
+        break;
+      case 3:
+        eightBall = "Cannot predict now";
+        break;
+      case 4:
+        eightBall = "Do not count on it";
+        break;
+      case 5:
+        eightBall = "My sources say no";
+        break;
+      case 6:
+        eightBall = "Outlook not so good";
+        break;
+      case 7:
+        eightBall = "Signs points to yes";
+    }
+    console.log(`The eight ball answered: ${eightBall}`);
+  </script>
 </html>
