@@ -1,13 +1,6 @@
-html * {
-  box-sizing: border-box;
-}
-body {
-  background-color: #ffffff;
-}
-.image-header {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0;
-  z-index: -1;
-  opacity: 0.3;
+.header {
+  background-image: url("Untitled\ design\ \(2\).png");
+  background-position: center;
+  background-size: cover;
+  height: 320px;
 }
