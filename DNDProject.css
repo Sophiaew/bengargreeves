@@ -62,7 +62,7 @@ html * {
   position: absolute;
   top: 300px;
   width: 100%;
-  font-size: 500;
+  font-size: 100px;
 }
 main {
   position: relative;
