@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Games</title>
+    <style>
+      p {
+        margin: 0 auto;
+        padding: 10px;
+        font-family: monospace;
+        color: black;
+        font-size: 20;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="games"></div>
+    <script>
+      async function doit() {
+        const req = await fetch("./games.json", { method: "GET" });
+        const games = await req.json();
+        return games;
+      }
+      doit().then((games) => {
+        console.log(games);
+        const root = document.getElementById("games");
+        for (const game of games) {
+          const newTag = document.createElement("p");
+          newTag.innerText = game.name;
+          root.appendChild(newTag);
+        }
+      });
+    </script>
+  </body>
+</html>

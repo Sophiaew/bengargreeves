@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Halo",
+    "platform": "Xbox",
+    "type": "First Person Shooter"
+  },
+  {
+    "name": "GRIS",
+    "platform": "Phone",
+    "type": "Puzzle Survival"
+  },
+  {
+    "name": "Spiritfarer",
+    "platform": "PC",
+    "type": "Indie"
+  },
+  {
+    "name": "Carrior",
+    "platform": "PC",
+    "type": "Action & Adventure"
+  },
+  {
+    "name": "Pandemic",
+    "platform": "PC",
+    "type": "Card & Board"
+  },
+  {
+    "name": "Crusader Kings",
+    "platform": "PC",
+    "type": "RPG"
+  },
+  {
+    "name": "Bioshock 2",
+    "platform": "Xbox",
+    "type": "First Person Shooter"
+  },
+  {
+    "name": "Witcher 3",
+    "platform": "Xbox",
+    "type": "RPG"
+  },
+  {
+    "name": "Wasteland",
+    "platform": "Xbox",
+    "type": "RPG"
+  },
+  {
+    "name": "Destiny",
+    "platform": "Xbox",
+    "type": "Online"
+  },
+  {
+    "name": "Gears 5",
+    "platform": "Xbox",
+    "type": "First Person Shooter"
+  },
+  {
+    "name": "Fable",
+    "platform": "Xbox",
+    "type": "RPG"
+  },
+  {
+    "name": "Among Us",
+    "platform": "PC",
+    "type": "Online"
+  },
+  {
+    "name": "Crucible",
+    "platform": "PC",
+    "type": "Online"
+  },
+  {
+    "name": "Smite",
+    "platform": "PC",
+    "type": "Online"
+  },
+  {
+    "name": "portal",
+    "platform": "PC",
+    "type": "Puzzle Survival"
+  },
+  {
+    "name": "Reigns",
+    "platform": "PC",
+    "type": "Card & Board"
+  },
+  {
+    "name": "Yakuza 0",
+    "platform": "Xbox",
+    "type": "RPG"
+  },
+  {
+    "name": "Assassins Creed Od",
+    "platform": "PC",
+    "type": "RPG"
+  },
+  {
+    "name": "Kentucky Route Zero",
+    "platform": "PC",
+    "type": "Adventure"
+  },
+  {
+    "name": "Stardew Valley",
+    "platform": "Xbox",
+    "type": "Indie"
+  },
+  {
+    "name": "Untitled Goose Game",
+    "platform": "PC",
+    "type": "Indie"
+  },
+  {
+    "name": "Where the Water Tastes Like Wine",
+    "platform": "PC",
+    "type": "Indie"
+  },
+  {
+    "name": "Wilmot's Warehouse",
+    "platform": "PC",
+    "type": "Puzzle Survival"
+  },
+  {
+    "name": "Enter The Gungeon",
+    "platform": "PC",
+    "type": "Platform"
+  },
+  {
+    "name": "Celeste",
+    "platform": "PC",
+    "type": "Platform"
+  }
+]
